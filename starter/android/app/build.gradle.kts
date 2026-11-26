@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.erasmus.memory_cards"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
     compileOptions {

@@ -17,11 +17,12 @@ dependencies:
   shared_preferences: ^2.3.0
 
   # Photo attachment  (used in Stage 5, Track A)
-  image_picker: ^1.1.0
+  image_picker: ^1.2.4
 
   # Local notifications  (used in Stage 5, Track C)
-  flutter_local_notifications: ^18.0.0
-  timezone: ^0.10.0
+  flutter_local_notifications: 19.5.0
+  timezone: ^0.10.1
+  path_provider: ^2.1.6
 
 dev_dependencies:
   flutter_test:
@@ -32,3 +33,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+dependency_overrides:
+  path_provider_android: 2.2.23
